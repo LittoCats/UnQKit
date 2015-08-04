@@ -10,6 +10,23 @@
 		A15E6A021B6F105F00A0BD15 /* UNQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A011B6F105F00A0BD15 /* UNQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15E6A081B6F105F00A0BD15 /* UNQKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15E69FC1B6F105F00A0BD15 /* UNQKit.framework */; };
 		A15E6A0F1B6F105F00A0BD15 /* UNQKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15E6A0E1B6F105F00A0BD15 /* UNQKitTests.m */; };
+		A15E6A1B1B6F109C00A0BD15 /* unqlite.c in Sources */ = {isa = PBXBuildFile; fileRef = A15E6A191B6F109C00A0BD15 /* unqlite.c */; };
+		A15E6A1C1B6F109C00A0BD15 /* unqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A1A1B6F109C00A0BD15 /* unqlite.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A15E6A1F1B6F161A00A0BD15 /* UnQLiteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A1D1B6F161A00A0BD15 /* UnQLiteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15E6A241B6F23A000A0BD15 /* UNQDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A221B6F23A000A0BD15 /* UNQDataBase.h */; };
+		A15E6A251B6F23A000A0BD15 /* UNQDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A15E6A231B6F23A000A0BD15 /* UNQDataBase.m */; };
+		A15E6A281B6F751900A0BD15 /* UNQBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A261B6F751900A0BD15 /* UNQBaseObject.h */; };
+		A15E6A291B6F751900A0BD15 /* UNQBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A15E6A271B6F751900A0BD15 /* UNQBaseObject.m */; };
+		A15E6A2C1B6F7B5800A0BD15 /* UNQVirtualMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6A2A1B6F7B5800A0BD15 /* UNQVirtualMachine.h */; };
+		A15E6A2D1B6F7B5800A0BD15 /* UNQVirtualMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = A15E6A2B1B6F7B5800A0BD15 /* UNQVirtualMachine.m */; };
+		A19C635C1B70475D00B55AAC /* UNQKeyValueCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C635A1B70475D00B55AAC /* UNQKeyValueCursor.h */; };
+		A19C635D1B70475D00B55AAC /* UNQKeyValueCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = A19C635B1B70475D00B55AAC /* UNQKeyValueCursor.m */; };
+		A19C63611B705CBF00B55AAC /* UNQContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A19C635F1B705CBF00B55AAC /* UNQContext.m */; };
+		A19C63681B70622200B55AAC /* UNQCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C63661B70622200B55AAC /* UNQCollection.h */; };
+		A19C63691B70622200B55AAC /* UNQCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A19C63671B70622200B55AAC /* UNQCollection.m */; };
+		A19C636C1B707DED00B55AAC /* UNQDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C636A1B707DED00B55AAC /* UNQDocument.h */; };
+		A19C636D1B707DED00B55AAC /* UNQDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A19C636B1B707DED00B55AAC /* UNQDocument.m */; };
+		A19C636F1B70F77400B55AAC /* UNQContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C636E1B70F77400B55AAC /* UNQContext.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +46,23 @@
 		A15E6A071B6F105F00A0BD15 /* UNQKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNQKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15E6A0D1B6F105F00A0BD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15E6A0E1B6F105F00A0BD15 /* UNQKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNQKitTests.m; sourceTree = "<group>"; };
+		A15E6A191B6F109C00A0BD15 /* unqlite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unqlite.c; sourceTree = "<group>"; };
+		A15E6A1A1B6F109C00A0BD15 /* unqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unqlite.h; sourceTree = "<group>"; };
+		A15E6A1D1B6F161A00A0BD15 /* UnQLiteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnQLiteTool.h; sourceTree = "<group>"; };
+		A15E6A221B6F23A000A0BD15 /* UNQDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQDataBase.h; sourceTree = "<group>"; };
+		A15E6A231B6F23A000A0BD15 /* UNQDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQDataBase.m; sourceTree = "<group>"; };
+		A15E6A261B6F751900A0BD15 /* UNQBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQBaseObject.h; sourceTree = "<group>"; };
+		A15E6A271B6F751900A0BD15 /* UNQBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQBaseObject.m; sourceTree = "<group>"; };
+		A15E6A2A1B6F7B5800A0BD15 /* UNQVirtualMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQVirtualMachine.h; sourceTree = "<group>"; };
+		A15E6A2B1B6F7B5800A0BD15 /* UNQVirtualMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQVirtualMachine.m; sourceTree = "<group>"; };
+		A19C635A1B70475D00B55AAC /* UNQKeyValueCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQKeyValueCursor.h; sourceTree = "<group>"; };
+		A19C635B1B70475D00B55AAC /* UNQKeyValueCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQKeyValueCursor.m; sourceTree = "<group>"; };
+		A19C635F1B705CBF00B55AAC /* UNQContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQContext.m; sourceTree = "<group>"; };
+		A19C63661B70622200B55AAC /* UNQCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQCollection.h; sourceTree = "<group>"; };
+		A19C63671B70622200B55AAC /* UNQCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQCollection.m; sourceTree = "<group>"; };
+		A19C636A1B707DED00B55AAC /* UNQDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQDocument.h; sourceTree = "<group>"; };
+		A19C636B1B707DED00B55AAC /* UNQDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNQDocument.m; sourceTree = "<group>"; };
+		A19C636E1B70F77400B55AAC /* UNQContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNQContext.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				A15E6A011B6F105F00A0BD15 /* UNQKit.h */,
+				A15E6A1D1B6F161A00A0BD15 /* UnQLiteTool.h */,
+				A15E6A181B6F109C00A0BD15 /* lib */,
+				A15E6A211B6F237900A0BD15 /* src */,
 				A15E69FF1B6F105F00A0BD15 /* Supporting Files */,
 			);
 			path = UNQKit;
@@ -102,6 +139,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A15E6A181B6F109C00A0BD15 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A15E6A191B6F109C00A0BD15 /* unqlite.c */,
+				A15E6A1A1B6F109C00A0BD15 /* unqlite.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A15E6A211B6F237900A0BD15 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A15E6A221B6F23A000A0BD15 /* UNQDataBase.h */,
+				A15E6A231B6F23A000A0BD15 /* UNQDataBase.m */,
+				A19C635A1B70475D00B55AAC /* UNQKeyValueCursor.h */,
+				A19C635B1B70475D00B55AAC /* UNQKeyValueCursor.m */,
+				A15E6A261B6F751900A0BD15 /* UNQBaseObject.h */,
+				A15E6A271B6F751900A0BD15 /* UNQBaseObject.m */,
+				A15E6A2A1B6F7B5800A0BD15 /* UNQVirtualMachine.h */,
+				A15E6A2B1B6F7B5800A0BD15 /* UNQVirtualMachine.m */,
+				A19C636E1B70F77400B55AAC /* UNQContext.h */,
+				A19C635F1B705CBF00B55AAC /* UNQContext.m */,
+				A19C636A1B707DED00B55AAC /* UNQDocument.h */,
+				A19C636B1B707DED00B55AAC /* UNQDocument.m */,
+				A19C63661B70622200B55AAC /* UNQCollection.h */,
+				A19C63671B70622200B55AAC /* UNQCollection.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +176,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15E6A241B6F23A000A0BD15 /* UNQDataBase.h in Headers */,
 				A15E6A021B6F105F00A0BD15 /* UNQKit.h in Headers */,
+				A19C636C1B707DED00B55AAC /* UNQDocument.h in Headers */,
+				A15E6A1F1B6F161A00A0BD15 /* UnQLiteTool.h in Headers */,
+				A15E6A2C1B6F7B5800A0BD15 /* UNQVirtualMachine.h in Headers */,
+				A15E6A281B6F751900A0BD15 /* UNQBaseObject.h in Headers */,
+				A15E6A1C1B6F109C00A0BD15 /* unqlite.h in Headers */,
+				A19C635C1B70475D00B55AAC /* UNQKeyValueCursor.h in Headers */,
+				A19C63681B70622200B55AAC /* UNQCollection.h in Headers */,
+				A19C636F1B70F77400B55AAC /* UNQContext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +234,7 @@
 		A15E69F31B6F105F00A0BD15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Littocats;
 				TargetAttributes = {
 					A15E69FB1B6F105F00A0BD15 = {
@@ -209,6 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19C63611B705CBF00B55AAC /* UNQContext.m in Sources */,
+				A15E6A291B6F751900A0BD15 /* UNQBaseObject.m in Sources */,
+				A19C63691B70622200B55AAC /* UNQCollection.m in Sources */,
+				A15E6A1B1B6F109C00A0BD15 /* unqlite.c in Sources */,
+				A15E6A2D1B6F7B5800A0BD15 /* UNQVirtualMachine.m in Sources */,
+				A19C635D1B70475D00B55AAC /* UNQKeyValueCursor.m in Sources */,
+				A15E6A251B6F23A000A0BD15 /* UNQDataBase.m in Sources */,
+				A19C636D1B707DED00B55AAC /* UNQDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -268,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,6 +414,8 @@
 				INFOPLIST_FILE = UNQKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.littocats.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -344,6 +431,8 @@
 				INFOPLIST_FILE = UNQKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.littocats.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -362,6 +451,7 @@
 				);
 				INFOPLIST_FILE = UNQKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.littocats.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -375,6 +465,7 @@
 				);
 				INFOPLIST_FILE = UNQKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.littocats.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +489,7 @@
 				A15E6A141B6F105F00A0BD15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A15E6A151B6F105F00A0BD15 /* Build configuration list for PBXNativeTarget "UNQKitTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +498,7 @@
 				A15E6A171B6F105F00A0BD15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
